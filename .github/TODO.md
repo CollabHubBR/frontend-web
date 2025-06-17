@@ -6,8 +6,9 @@
 
 ## To Do
 
-- [ ] Inicial estrutura Vite + React + TS
-- [ ] Criar workflow de testes
+-   [✅] Inicial estrutura Vite + React + TS
+-   [✅] Criar workflow de testes
+-   [✅] Criar rotas
 
 ## Doing
 
