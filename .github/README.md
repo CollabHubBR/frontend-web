@@ -1,6 +1,7 @@
 # CollabHubBR - Front-End Web
 
 ![GitHub License](https://img.shields.io/github/license/CollabHubBR/frontend-web?labelColor=101010)
+
 <!-- ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/CollabHubBR/frontend-web/testing.yml?style=flat&labelColor=101010) -->
 
 Este repositório contém o código-fonte do **Front-End Web** do **CollabHubBR**, a plataforma brasileira de coordenação e organização de projetos de código-aberto. Construído com **React** e **Vite** para uma experiência de desenvolvimento rápida e eficiente, esta aplicação oferece uma interface intuitiva e responsível para os usuários interagirem com os projetos, participarem de enquetes, acompanharem roadmaps e visualizarem métricas importantes.
@@ -20,7 +21,8 @@ Utilizamos **WebSockets** para notificações em tempo real, garantindo que voc�
 <!-- ![Vercel](https://img.shields.io/badge/vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white) -->
 <!-- ![Netlify](https://img.shields.io/badge/netlify-000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) -->
 
-<!-- ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) -->
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+
 <!-- ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black) -->
 
 ![GitHub](https://img.shields.io/badge/GitHub-fff?style=for-the-badge&logo=github&logoColor=181717)
@@ -55,20 +57,17 @@ graph TD
 
 Abaixo, descrevemos a organização principal das pastas do projeto:
 
-- `src/`: Contém todo o código-fonte da aplicação.
-  - `assets/`: Imagens, ícones, fontes e outros recursos estáticos.
-  - `components/`: Componentes React reutilizáveis, divididos por nível de complexidade (Atoms, Molecules, Organisms).
-    - `atoms/`: Componentes básicos e sem estado, como botões, inputs, textos.
-    - `molecules/`: Combinações de átomos, como cards, cabeçalhos de seção.
-    - `organisms/`: Grupos de moléculas e átomos formando seções maiores, como formulários complexos, barras de navegação.
-  - `contexts/`: Contextos React para gerenciamento de estado global (autenticação, tema, etc.).
-  - `hooks/`: Hooks personalizados para lógica reutilizável.
-  - `pages/`: Componentes de página, representando as diferentes rotas da aplicação.
-  - `services/`: Módulos para integração com APIs externas e serviços de backend (e.g., comunicação com WebSockets).
-  - `styles/`: Arquivos de estilos globais ou temas.
-  - `utils/`: Funções utilitárias e helpers.
-  - `App.tsx`: Componente principal da aplicação.
-  - `main.tsx`: Ponto de entrada da aplicação.
+-   `src/`: Contém todo o código-fonte da aplicação.
+    -   `assets/`: Imagens, ícones, fontes e outros recursos estáticos.
+    -   `components/`: Componentes React reutilizáveis, divididos por nível de complexidade (Atoms, Molecules, Organisms).
+    -   `contexts/`: Contextos React para gerenciamento de estado global (autenticação, tema, etc.).
+    -   `hooks/`: Hooks personalizados para lógica reutilizável.
+    -   `pages/`: Componentes de página, representando as diferentes rotas da aplicação.
+    -   `services/`: Módulos para integração com APIs externas e serviços de backend (e.g., comunicação com WebSockets).
+    -   `styles/`: Arquivos de estilos globais ou temas.
+    -   `utils/`: Funções utilitárias e helpers.
+    -   `App.tsx`: Componente principal da aplicação.
+    -   `main.tsx`: Ponto de entrada da aplicação.
 
 ### Instalação de Dependências
 
@@ -108,10 +107,10 @@ Confira a [To-Do List aqui](https://github.com/CollabHubBR/frontend-web/blob/mai
 
 Antes de contribuir ativamente com o projeto é **fortemente recomendada** a leitura dos documentos abaixo:
 
-- [Código de Conduta](https://github.com/CollabHubBR/.github/blob/main/CODE_OF_CONDUCT.md)
-- [Contribuindo](https://github.com/CollabHubBR/.github/blob/main/CODE_OF_CONDUCT.md)
-- [Segurança](https://github.com/CollabHubBR/.github/blob/main/SECURITY.md)
-- [Suporte](https://github.com/CollabHubBR/.github/blob/main/SUPPORT.md)
+-   [Código de Conduta](https://github.com/CollabHubBR/.github/blob/main/CODE_OF_CONDUCT.md)
+-   [Contribuindo](https://github.com/CollabHubBR/.github/blob/main/CONTRIBUTING.md)
+-   [Segurança](https://github.com/CollabHubBR/.github/blob/main/SECURITY.md)
+-   [Suporte](https://github.com/CollabHubBR/.github/blob/main/SUPPORT.md)
 
 ## Licença
 

@@ -1,12 +1,5 @@
 ## Checklist
 
-- [ ] have read and agree with [Code of Conduct](https://github.com/CollabHubBR/.github/blob/main/CODE_OF_CONDUCT.md)
-- [ ] have read and agree with [Contributing](https://github.com/CollabHubBR/.github/blob/main/CONTRIBUTING.md)
-- [ ] have read and agree with [Security](https://github.com/CollabHubBR/.github/blob/main/SECURITY.md)
-- [ ] have read and agree with [Support](https://github.com/CollabHubBR/.github/blob/main/SUPPORT.md)
-
-## Checklist
-
 - [ ] li e estou de acordo com o documento [Code of Conduct](https://github.com/CollabHubBR/.github/blob/main/CODE_OF_CONDUCT.md)
 - [ ] li e estou de acordo com o documento [Contributing](https://github.com/CollabHubBR/.github/blob/main/CONTRIBUTING.md)
 - [ ] li e estou de acordo com o documento [Security](https://github.com/CollabHubBR/.github/blob/main/SECURITY.md)
