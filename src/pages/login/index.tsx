@@ -7,7 +7,7 @@ export function LoginPage() {
 
     const handleLogin = () => {
         localStorage.setItem("token", "fake-token");
-        navigate("/dashboard");
+        navigate("/");
     }
 
     return (
