@@ -10,7 +10,7 @@ export function HeaderComponent({ token }: HeaderComponentProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full bg-slate-950 text-white px-6 py-3 flex items-center justify-between shadow border-b border-slate-900 relative">
+    <header className="fixed top-0 left-0 w-full h-16 bg-slate-950 text-white px-6 py-3 flex items-center justify-between shadow border-b border-slate-900 z-50">
       <h2 className="font-bold text-lg">CollabHubBR</h2>
 
       {token && (
@@ -36,7 +36,6 @@ export function HeaderComponent({ token }: HeaderComponentProps) {
                 className="w-5 h-5"
               />
             </div>
-
             <div className="cursor-pointer">
               <img
                 src="assets/image/profile.png"
