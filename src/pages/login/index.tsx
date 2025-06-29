@@ -15,12 +15,12 @@ export function LoginPage() {
             <HeaderComponent token={token} />
 
             <div className="flex-grow flex flex-col items-center justify-center px-4">
-                <h1 className="text-white text-2xl sm:text-3xl md:text-[40px] font-bold mb-6 text-center">
+                <h1 className="text-slate-100 text-2xl sm:text-3xl md:text-[40px] font-bold mb-6 text-center">
                     Bem Vindo
                 </h1>
 
                 <button
-                    className="w-full max-w-xs sm:max-w-sm md:max-w-md flex items-center justify-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-medium px-6 py-3 rounded-md transition-colors duration-200 cursor-pointer"
+                    className="w-full max-w-xs sm:max-w-sm md:max-w-md flex items-center justify-center gap-2 bg-sky-600 hover:bg-sky-700 text-slate-100 font-medium px-6 py-3 rounded-md transition-colors duration-200 cursor-pointer"
                     onClick={handleLogin}
                 >
                     Login com GitHub
