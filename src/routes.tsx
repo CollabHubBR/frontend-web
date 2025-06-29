@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router"
 import { LoginPage } from "./pages/login"
 import { PageDefault } from "./utils/pageDefault"
+import { DashboardPage } from "./pages/dashboard"
 
 export function AppRoute() {
     const router = createBrowserRouter(
@@ -14,7 +15,8 @@ export function AppRoute() {
                 element: <PageDefault />,
                 children: [
                     {
-                        
+                        index: true,
+                        element: <DashboardPage />
                     }
                 ]
             }
