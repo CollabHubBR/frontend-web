@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { SearchComponent } from "../search";
 
 interface HeaderComponentProps {
@@ -8,10 +8,11 @@ interface HeaderComponentProps {
 
 export function HeaderComponent({ token }: HeaderComponentProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
-    <header className="w-full bg-slate-950 text-white px-6 py-3 flex items-center justify-between shadow border-b border-slate-900 relative">
-      <h2 className="font-bold text-lg">CollabHubBR</h2>
+    <header className="w-full bg-slate-950 text-slate-100 px-6 py-3 flex items-center justify-between shadow border-b border-slate-900 relative">
+      <h2 className="font-bold text-lg cursor-pointer" onClick={() => navigate("/")}>CollabHubBR</h2>
 
       {token && (
         <>
