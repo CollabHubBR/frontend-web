@@ -2,4 +2,11 @@
 
 * {
     font-family: "Lexend", sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+    .sidebar-personalized {
+        display: none;
+    }
 }
